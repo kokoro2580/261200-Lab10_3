@@ -1,0 +1,24 @@
+public class File {
+    private String fileName;
+    private String fileType;
+    private String filePath;
+
+    /// เก็บข้อมูล ///
+    public File(String fileName, String fileType, String filePath) {
+        this.fileName = fileName;
+        this.fileType = fileType;
+        this.filePath = filePath;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public String getFileType() {
+        return fileType;
+    }
+
+    public String getFilePath() {
+        return filePath;
+    }
+}
